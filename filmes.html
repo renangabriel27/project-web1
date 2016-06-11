@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Filmes e músicas</title>
+	<link type="text/css" rel="stylesheet" href="assets/css/normalize.css">
+	<link type="text/css" rel="stylesheet" href="assets/css/main.css">
+	<link type="text/css" rel="stylesheet" href="assets/css/responsive.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+	<div id="main-content">
+		<div id="main-container">
+			<header id="main-header">
+				<nav>
+					<a href="#" id="btn-drop-down" onclick="dropMenu('drop-down')"></a>
+					<ul class="nav nav-horizontal" id="drop-down">
+						<li><a href="index.html" title="Página inicial">Página inicial</a></li>
+						<li><a href="sobre.html" title="Sobre">Sobre</a></li>
+						<li class="active"><a href="#" title="Filmes">Filmes</a></li>
+						<li><a href="musicas.html" title="Músicas">Músicas</a></li>
+						<li><a href="blog.html" title="Blog">Blog</a></li>
+						<li><a href="contato.html" title="Contato">Contato</a></li>
+					</ul>
+				</nav>
+			</header>
+			<!-- header#main-header-->
+
+			<section id="movies-page" class="padding-to-fix-footer clearfix">
+
+				<canvas id="canvas-logo">
+					<h1>Músicas e Filmes</h1>
+				</canvas>
+
+				<div class="border-top"></div>
+				
+				<h2 class="text-center"> Filmes </h2>
+
+				<article>
+					<img src="assets/images/fight-club.png" alt="clube da luta" id="link">
+					<h2>Clube da luta</h2>
+					<p>
+						Jack (Edward Norton) é um executivo jovem, trabalha como investigador de seguros, mora confortavelmente, mas ele está ficando cada vez mais insatisfeito com sua vida medíocre. Para piorar ele está enfrentando uma terrível crise de insônia, até que encontra uma cura inusitada para o sua falta de sono.
+			        </p> 
+			        <a href="#" class="read-more slide-down"> Leia mais </a>
+				</article>
+
+				<article>
+					<img src="assets/images/interstelar.png" alt="interstelar">
+					<div id="teste">
+					<h2>Interestelar</h2>
+					<p>
+						Após ver a Terra consumindo boa parte de suas reservas naturais, um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper (Matthew McConaughey) é chamado para liderar o grupo e aceita a missão.
+			        </p> 
+			        <a href="#" class="read-more"> Leia mais </a>
+			        </div>
+				</article>
+
+				<article>
+					<img src="assets/images/mad-max.png" alt="mad-max">
+					<h2>Mad Max</h2>
+					<p>
+						Após ser capturado por Immortan Joe, um guerreiro das estradas chamado Max (Tom Hardy) se vê no meio de uma guerra mortal, iniciada pela Imperatriz Furiosa (Charlize Theron) na tentativa se salvar um grupo de garotas. Também tentanto fugir, Max aceita ajudar Furiosa em sua luta contra Joe e se vê dividido.
+			        </p> 
+			        <a href="#" class="read-more"> Leia mais </a>
+				</article>
+
+			</section>
+			<!-- section#movies-page -->
+
+		</div>
+		<!-- div#main-container -->
+
+		<footer id="main-footer">
+			<p> Copyright - Todos os direitos reservados &copy;</p>
+		</footer>
+
+	</div>
+	<!-- div#main-content -->
+
+	<script src="assets/js/javascript.js"></script>
+	<script src="assets/js/canvas.js"></script>
+
+</body>
+</html>

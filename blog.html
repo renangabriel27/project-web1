@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Filmes e músicas</title>
+	<link type="text/css" rel="stylesheet" href="assets/css/normalize.css">
+	<link type="text/css" rel="stylesheet" href="assets/css/main.css">
+	<link type="text/css" rel="stylesheet" href="assets/css/responsive.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+	<div id="main-content">
+		<div id="main-container">
+			<header id="main-header">
+				<nav>
+					<a href="#" id="btn-drop-down" onclick="dropMenu('drop-down')"></a>
+					<ul class="nav nav-horizontal" id="drop-down">
+						<li><a href="index.html" title="Página inicial">Página inicial</a></li>
+						<li><a href="sobre.html" title="Sobre">Sobre</a></li>
+						<li><a href="filmes.html" title="Filmes">Filmes</a></li>
+						<li><a href="musicas.html" title="Músicas">Músicas</a></li>
+						<li class="active"><a href="blog.html" title="Blog">Blog</a></li>
+						<li><a href="contato.html" title="Contato">Contato</a></li>
+					</ul>
+				</nav>
+			</header>
+			<!-- header#main-header -->
+
+			<section id="blog-page" class="padding-to-fix-footer clearfix">
+
+				<canvas id="canvas-logo">
+					<h1>Músicas e Filmes</h1>
+				</canvas>
+
+				<div class="border-top"></div>
+
+				<section id="blog-posts">
+					<h2 class="text-center"> Blog </h2>
+					<div id="content-posts" class="clearfix">
+						<article class="clearfix">
+							<img src="assets/images/nwa.png" alt="nwa" class="clearfix">
+							<div class="post-date">
+								<p>30 de Outubro, 2015<p>
+								<p>Postado por
+									<a href="#" class="posted">Renan</a>
+								</p>
+							</div>
+							<h2> A História do N.W.A  </h2>
+							<p>
+								Califórnia, década de 1980. Cinco jovens usam suas experiências pessoais na produção de músicas honestas, rebeldes, diferentes e totalmente contra o sistema. Surge o N.W.A. (Niggaz Wit Attitudes), que dá voz a uma geração e promove a explosão do gangsta rap.
+				            </p>
+				            <a href="#" class="read-more"> Leia mais </a>
+						</article>
+
+						<article class="clearfix">
+							<img src="assets/images/007.png" alt="007 contra spectre">
+							<div class="post-date">
+								<p>12 de Outubro, 2015<p>
+								<p>Postado por
+									<a href="#" class="posted">Renan</a>
+								</p>
+							</div>
+							<h2>007 Contra SPECTRE</h2>
+							<p>
+								Uma enigmática mensagem do passado de James Bond (Daniel Craig) o coloca numa investigação sobre uma misteriosa organização criminosa. Enquanto M (Ralph Fiennes) enfrenta duras batalhas políticas para manter o serviço de inteligência funcionando plenamente, Bond dedica-se a desvendar o que é Spectre.
+	 
+				            </p>
+				            <a href="#" class="read-more"> Leia mais </a>
+						</article>
+						
+					</div>
+					<!-- div#content-posts -->
+
+				</section>
+				<!-- section#blog-posts -->
+
+				<aside id="blog-sidebar">
+					<nav class="nav-bar">
+						<ul class="nav nav-vertical">
+							<li><h3>Categorias</h3></li>
+							<li><a href="#" title="Ação">Ação</a></li>
+							<li><a href="#" title="Suspense">Suspense</a></li>
+							<li><a href="#" title="Terror">Terror</a></li>
+							<li><a href="#" title="Comédia">Comédia</a></li>
+							<li><a href="#" title="Drama">Drama</a></li>
+							<li><h3>Arquivos</h3></li>
+							<li><a href="#" title="">Outubro 2015</a></li>
+							<li><a href="#" title="">Setembro 2015</a></li>
+							<li><a href="#" title="">Agosto 2015</a></li>
+							<li><a href="#" title="">Julho 2015</a></li>
+							<li><a href="#" title="">Junho 2015</a></li>
+							<li><input type="button" value="Receber notícias" onclick="follow()"></li>
+						</ul>
+					</nav>
+				</aside>
+				<!-- aside#sidebar -->
+
+			</section>
+			<!-- section#blog-page -->
+
+		</div>
+		<!-- div#main-container -->
+
+		<footer id="main-footer">
+			<p> Copyright - Todos os direitos reservados &copy;</p>
+		</footer>
+		
+	</div>
+	<!-- div#main-content -->
+
+	<script src="assets/js/javascript.js"></script>
+	<script src="assets/js/canvas.js"></script>
+	<script src="assets/js/validate.js"></script>
+</body>
+</html>

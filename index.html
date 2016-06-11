@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Filmes e músicas</title>
+	<link type="text/css" rel="stylesheet" href="assets/css/normalize.css">
+	<link type="text/css" rel="stylesheet" href="assets/css/main.css">
+	<link type="text/css" rel="stylesheet" href="assets/css/responsive.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+	<div id="main-content">
+		<div id="main-container">
+			<header id="main-header">
+				<nav>
+				    <a href="#" id="btn-drop-down" onclick="dropMenu('drop-down')"></a>
+					<ul class="nav nav-horizontal" id="drop-down">
+						<li class="active"><a href="index.html" title="Página inicial">Página inicial</a></li>
+						<li><a href="sobre.html" title="Sobre">Sobre</a></li>
+						<li><a href="filmes.html" title="Filmes">Filmes</a></li>
+						<li><a href="musicas.html" title="Músicas">Músicas</a></li>
+						<li><a href="blog.html" title="Blog">Blog</a></li>
+						<li><a href="contato.html" title="Contato">Contato</a></li>
+					</ul>
+				</nav>
+			</header>
+			<!-- header#main-header -->
+
+			<section id="index-page" class="padding-to-fix-footer clearfix">
+
+				<canvas id="canvas-logo">
+					<h1>Músicas e Filmes</h1>
+				</canvas> 
+
+				<div class="slider">
+					<input type="button" class="changeSlider" id="previous" value="&lsaquo;" onclick="changeSlider()">
+					<img src="assets/images/slide1.png" class="fade" alt="slider">
+					<input type="button" class="changeSlider" id="next" value="&rsaquo;" onclick="changeSlider()">
+				</div>
+
+				<section id="recent-articles" class="clearfix text-center">
+					<div class="subtitle">
+						<img src="assets/images/lp2.png" alt="linkin park">
+						<div class="subtitle-hover">
+							<h2> Linkin park </h2>
+							<p> Ouça na íntegra "The Hunting Party", o novo álbum do Linkin Park </p>
+							<a href="#">Ouvir</a>
+						</div>
+					</div>
+
+					<div class="subtitle">
+						<img src="assets/images/metallica.png" alt="metallica">
+						<div class="subtitle-hover">
+							<h2> Metallica </h2>
+							<p> Ouça na íntegra, o disco novo do metallica </p>
+							<a href="#">Ouvir</a>
+						</div>
+					</div>
+
+					<div class="subtitle">
+						<img src="assets/images/detroit-rock-city.png" alt="detroit rock city">
+						<div class="subtitle-hover">
+							<h2> Kiss</h2>
+							<p> Ouça a trilha sonora do filme Detroit Rock City</p>
+							<a href="#">Ouvir</a>
+						</div>
+					</div>
+				</section>
+				<!-- section#recent-articles -->
+
+				<section id="last-news" class="clearfix">
+					<h2> Últimas notícias </h2>
+					<article class="highlights">
+						<header>
+							<h3>Kiss fecha Monsters of Rock com show para 35 mil em São Paulo</h3>
+							<h4>Domingo teve bandas com clichês visuais e musicais do rock pesado.</h4>
+						</header>
+
+						<p>
+							O Kiss fez o teatro divertido de sempre, com setlist quase igual ao dos shows anteriores nesta passagem pelo Brasil (Brasília, Belo Horizonte, Curitiba e Florianópolis). A diferença foi "Parasite" no lugar de "Hide your heart".
+						</p>
+						<p>
+							A banda está em turnê que comemora suas quatro décadas. O quarteto maquiado entrou com 45 minutos de atraso, às 23h15.
+						</p>
+					</article>	
+
+					<article class="highlights">
+						<header>
+							<h3>Slipknot faz Castelo do Terror digno de atração principal do Rock in Rio</h3>
+							<h4>Banda de mascarados fez som pesadíssimo nesta sexta-feira de festival.</h4>
+						</header>
+						<p>
+							Se o Rock in Rio tem cara de parque de diversões, o Slipknot é o Castelo do Terror ideal. O show desta sexta-feira (25) teve o mise-en-scène de horror de sempre - até uma chuva de papel picado, em momento "Carnapknot".
+						</p>
+						<p>
+							O que faz diferença é que a música não é de brinquedo - continua boa. A banda de mascarados foi a única a ganhar totalmente a plateia nesta sexta. 
+						</p>
+					</article>	
+				</section>
+				<!-- section#last-news -->
+
+			</section>
+			<!-- div#index-page -->
+
+		</div>
+		<!-- section#main-container -->
+
+
+		<footer id="main-footer">
+			<p> Copyright - Todos os direitos reservados &copy;</p>
+		</footer>
+
+	</div>
+	<!-- div#main-content -->
+
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/javascript.js"></script>
+	<script src="assets/js/canvas.js"></script>
+	<script src="assets/js/slider.js"></script>
+	
+</body>
+</html>

@@ -1,0 +1,229 @@
+
+
+@media screen and (max-width: 1200px) {
+
+	/*
+	* Style for main-header nav
+	* ----------------------------------
+	*/
+
+	#main-header ul.nav {
+		margin-left: 20.833333333%;  /* 200px/960px */
+		width: 70.833333333%; /* 680px/960px */
+	}
+}
+
+@media screen and (max-width: 800px) {
+
+	/*
+	* Style for canvas
+	* ----------------------------------
+	*/
+
+	#canvas-logo {
+		width: 70%;
+	}
+
+	/*
+	* Style for main-header nav
+	* ----------------------------------
+	*/
+
+	#main-header ul.nav {
+		margin-left: 10.208333333%; /* 98px/960px */
+		width: 90%; 
+	}
+
+	/*
+	* Style for index-page
+	* ----------------------------------
+	*/
+
+	.slider {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	#recent-articles h2 {
+		margin-top: 10%; 
+	}
+
+	.subtitle,
+	.subtitle:nth-child(2) {
+		width: 90%;
+		margin: 2.083333333% auto; /* 20px/960px */
+		float: none;
+	}
+
+	.subtitle img {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.highlights {
+		width: 90%;
+		margin: 2.083333333% auto;
+		float: none;
+	}
+
+	/*
+	* Style for about-page
+	* ----------------------------------
+	*/
+
+	#about-page article {
+		float: none;
+		width: 90%;
+	}
+
+	#about-page img {
+		width: 70%;
+		float: none;
+		margin: 2.083333333% auto;
+	}
+
+	/*
+	* Style for music-page
+	* ----------------------------------
+	*/
+
+	#music-page article {
+		width: 85%;
+		margin: 4.166666667% auto; /* 40px/960px */
+		float: none;
+	}
+
+	#music-page img {
+		height: 250px;
+	}
+	/*
+	* Style for movies-page
+	* ----------------------------------
+	*/
+
+	#movies-page article {
+		width: 85%; 
+		margin: 3.125% auto;
+		float: none;
+	}
+
+	/*
+	* Style for blog-sidebar
+	* ----------------------------------
+	*/
+
+	#blog-sidebar {
+		float: none;
+		margin: 0 auto;
+		width: 50%;
+		text-align: center;
+	}
+
+	#blog-posts {
+		float: none;
+		width: 98%;
+	}
+
+	/*
+	* Style for contact-page
+	* ----------------------------------
+	*/
+
+	#contact-page form { 
+		width: 80%; 
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+
+	/*
+	* Style main-container
+	* ----------------------------------
+	*/
+
+	#main-container {
+		width: 100%;
+		padding: 0;
+	}
+
+	/*
+	* Style for main-header nav
+	* ----------------------------------
+	*/
+
+	#main-header ul.nav {
+		margin: 2%; 
+		width: 95%; 
+		display: none;
+	}
+
+	#main-header ul.nav li {
+    	margin-bottom: 0.5%;
+  		text-align: center;
+  		float: none;
+	}
+
+	#btn-drop-down {
+		display: block;
+	}
+
+	/*
+	* Style for slider
+	* ----------------------------------
+	*/
+
+
+	.slider img {
+		position: absolute;
+		transform: scaleX(3);
+	}
+
+
+	/*
+	* Style for about-page
+	* ----------------------------------
+	*/
+
+	#about-page img {
+		width: 90%;
+		margin-bottom: 10%;
+	}
+
+	/*
+	* Style for blog-page
+	* ----------------------------------
+	*/
+
+	#blog-posts article {
+		min-height: 600px;
+	}
+
+	#blog-posts p,
+	#blog-posts h2 {
+		padding: 0 3%;
+	}
+
+	#blog-posts img {
+		min-width: 98%;
+		float: none;
+	}
+
+	#content-posts img {
+		height: 300px;
+	}
+
+	#blog-sidebar {
+		margin-bottom: 10%;
+	}
+
+	/*
+	* Style for contact-page
+	* ----------------------------------
+	*/
+
+	#contact-page #error {
+		width: 80%;
+		margin: 0 auto;
+	}
+}

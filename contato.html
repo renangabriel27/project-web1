@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Filmes e músicas</title>
+	<link type="text/css" rel="stylesheet" href="assets/css/normalize.css">
+	<link type="text/css" rel="stylesheet" href="assets/css/main.css">
+	<link type="text/css" rel="stylesheet" href="assets/css/responsive.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+	<div id="main-content">
+		<div id="main-container">
+			<header id="main-header">
+				<nav>
+					<a href="#" id="btn-drop-down" onclick="dropMenu('drop-down')"></a>
+					<ul class="nav nav-horizontal" id="drop-down">
+						<li><a href="index.html" title="Página inicial">Página inicial</a></li>
+						<li><a href="sobre.html" title="Sobre">Sobre</a></li>
+						<li><a href="filmes.html" title="Filmes">Filmes</a></li>
+						<li><a href="musicas.html" title="Músicas">Músicas</a></li>
+						<li><a href="blog.html" title="Blog">Blog</a></li>
+						<li class="active"><a href="#" title="Contato">Contato</a></li>
+					</ul>
+				</nav>
+			</header>
+			<!-- header#main-header -->
+
+			<section id="contact-page" class="padding-to-fix-footer clearfix">
+
+				<div class="border-top"></div>
+
+				<h2 class="text-center"> Página para contato </h2>
+
+				<div id="error"></div>
+
+				<form name="contact-form" method="GET" onsubmit="validate()">
+					<label for="name"> * Nome </label>
+					<input type="text" id="name">
+
+					<label for="email"> * Email </label>
+					<input type="text" id="email">
+
+					<label for="message">* Mensagem </label>
+					<textarea id="message"></textarea>
+
+					<input type="submit" value="Enviar" id="button">
+				</form>
+
+			</section>
+			<!-- section#contact-page -->
+		</div>
+		<!-- div#main-container -->
+
+		<footer id="main-footer">
+			<p> Copyright - Todos os direitos reservados &copy;</p>
+		</footer>
+
+	</div>
+	<!-- div#main-content -->
+
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/javascript.js"></script>
+	<script src="assets/js/validate.js"></script>
+</body>
+</html>
